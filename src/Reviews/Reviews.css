@@ -1,0 +1,49 @@
+.review-box {
+    width: 500px;
+    height: 515px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    position: relative;
+    left: 300px;
+  }
+  .review-box .user-comment {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .review-box .user-info {
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #999;
+  }
+  .review-box .user-info .user-name {
+    font-weight: bold;
+  }
+  .review-box .user-info .date {
+    font-style: italic;
+  }
+  .review-box .cloud-shape {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+  #reviewstxt{
+    color: red;
+    text-align: center;
+    font-size: larger;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5em;
+  }
+  
